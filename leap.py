@@ -8,10 +8,11 @@ while year2 <= year1:
     print("A latter than the first one, please. ")
     year2 = int(input("And another one. "))
 
+print("Leap years are: ")
+
 for year in range(year1, year2):
     if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
-        print ("Leap years are: ")
         print(year, end=", ")
         
- print("tady Eva, dalsi zkouska")
+ #tady Eva, dalsi zkouska
     
