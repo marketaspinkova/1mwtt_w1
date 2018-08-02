@@ -1,5 +1,5 @@
 year1 = int(input("Give me a year, please. "))
-while year1 < 0:
+while year1 <= 0:
     print("Something after Christ.")
     year1 = int(input("Give me a year, please. "))
 
